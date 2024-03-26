@@ -116,7 +116,7 @@ export  const ExperienceData =[
     },
     {
         id:13,
-        title: "Mongoose/mongodb",
+        title: "Mongodb",
         description: "intermediate",
         type:"backend"
     },

@@ -5,11 +5,17 @@
 
 
 @layer component{
+
+  h3{
+  @apply text-3xl   text-red-500 font-semibold
+  }
+
+
   .main-tag{
    @apply bg-slate-100
 
   }
-  .verticaly-center{
+  .item-center{
     @apply flex items-center justify-center
   }
   .between{
