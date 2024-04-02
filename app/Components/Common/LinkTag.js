@@ -3,8 +3,8 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function LinkTag({path, name}) {
+export default function LinkTag({path,className, name}) {
   return (
-    <Link href={path} >{name}</Link>
+    <Link href={path} className={className} >{name}</Link>
   )
 }

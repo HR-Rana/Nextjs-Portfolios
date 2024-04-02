@@ -1,23 +1,19 @@
-import Link from 'next/link'
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import LinkTag from './Common/LinkTag'
-import Image from 'next/image'
+
 
 export default function Nav() {
+
   return (
-    <div className='navigation-bar flex justify-between'>
-      <div className='logo'>
-        Branding logo
-        <LinkTag path={"/"} >
-          <h3>Branding logo</h3>
-          {/* <Image src={""} alt="logo"  width={100} height={100} /> */}
-        </LinkTag>
-      </div>
-      <nav className='sm:w'>
-          <ul className='flex justify-between'>
+    <div className={`navigation-bar flex justify-between pt-2 top-0 sticky z-40 ` }>
+      <nav className='shadow-md shadow-cyan-400 w-[70%] bg-slate-950 rounded-md mx-auto py-5 px-[25px]'>
+          <ul className='flex justify-between w-[80%] mx-auto'>
             <li>
               <LinkTag path={"/"} name={"Home"} />
-            </li> <li>
+            </li> 
+            <li>
               <LinkTag path={"/About"} name={"About"} />
             </li>
             <li>

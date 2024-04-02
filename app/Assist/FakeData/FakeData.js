@@ -11,12 +11,12 @@ export const AchiveSectionText = {
 export  const AchivementData =[
     {
         id: 1,
-        title: "Projext Done",
+        title: "Projects Done",
         description: "30+",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/React_logo.svg/1200px-React_logo.svg.png",
     },{
         id: 2,
-        title: "Award",
+        title: "Awards",
         description: "15+",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/React_logo.svg/1200px-React_logo.svg.png",
     },{
@@ -126,4 +126,77 @@ export  const ExperienceData =[
         description: "Expart",
         type:"backend"
     },
+]
+
+
+
+
+
+
+export const SkillSectionTitle = {
+    title:"My Skills"
+}
+
+export  const SkillData =[
+    {
+        id: 1,
+        title: "Html",
+        lavel:'99%',
+        type:"frontend"
+    },
+    {
+        id:2,
+        title: "CSS",
+        lavel:'98%',
+        type:"frontend"
+    } ,
+    {
+        id:3,
+        title: "Bootstrap",
+        lavel:'98%',
+        type:"frontend"
+    },
+    {
+        id:4,
+        title: "JQuery",
+        lavel:'80%',
+        type:"frontend"
+    },
+    {
+        id:5,
+        title: "Tailwind",
+        lavel:'80%',
+        type:"frontend"
+    },
+    {
+        id:6,
+        title: "JavaScript",
+        lavel:'85%',
+        type:"frontend"
+    },
+    {
+        id:7,
+        title: "Reactjs",
+        lavel:'90%',
+        type:"frontend"
+    },
+    {
+        id:8,
+        title: "NextJs",
+        lavel:'70%',
+        type:"frontend"
+    },
+    {
+        id:9,
+        title: "Firebase",
+        lavel:'90%',
+        type:"frontend"
+    },
+    {
+        id:10,
+        title: "Express js",
+        lavel:'85%',
+        type:"backend"
+    }
+    
 ]

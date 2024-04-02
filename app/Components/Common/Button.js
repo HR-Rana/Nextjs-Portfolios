@@ -4,8 +4,8 @@ import React from 'react'
 
 
 
-export default function ButtonTag({name, btnFunction}) {
+export default function ButtonTag({name, Class, btnFunction}) {
   return (
-   <button onClick={btnFunction}>{name}</button>
+   <button onClick={btnFunction} className={Class}>{name}</button>
   )
 }
